@@ -7,13 +7,14 @@ metadata:
     argocd/app-name: archon
     github.com/project-slug: kingbj940429/python-app-1-test
     backstage.io/techdocs-ref: dir:.
-    backstage.io/kubernetes-id: archon
+    backstage.io/kubernetes-id: archon-server
     backstage.io/kubernetes-namespace: archon
 spec:
   type: service
   owner: development
 
   lifecycle: experimental
+
 
 
 
