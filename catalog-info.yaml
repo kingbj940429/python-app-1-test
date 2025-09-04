@@ -7,12 +7,13 @@ metadata:
     argocd/app-name: archon
     github.com/project-slug: kingbj940429/python-app-1-test
     backstage.io/techdocs-ref: dir:.
-    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/name: archon'
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/name=archon'
 spec:
   type: service
   owner: development
 
   lifecycle: experimental
+
 
 
 
